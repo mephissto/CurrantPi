@@ -58,7 +58,11 @@
           <h3 class="text-muted">Board Details</h3>
         </div>
         <div class="col-sm-4 title-logo">
+        <?php if (file_exists("img/custom.png")): ?>
+          <img src="img/custom.png" class="title_logo">
+        <?php else :?>
           <img src="img/Raspberry_Pi_Logo.svg" class="title_logo">
+        <?php endif; ?>
         </div>
       </div>
 
